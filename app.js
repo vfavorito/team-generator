@@ -8,7 +8,33 @@ const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
-const render = require("./lib/htmlRenderer");
+const render = require("./htmlRenderer");
+
+const managerInfo = () => 
+inquirer.prompt([
+    {
+        type:"input",
+        name:"manager name",
+        message:"What is the name of this teams manager?"
+    },
+    {
+        type:"input",
+        name:"manager id",
+        message:"What is the manager's ID number?",   
+    },
+    {
+        type:"input",
+        name:"manager email",
+        message:"What is the manager's email address?",   
+    },
+    {
+        type:"input",
+        name:"manager office number",
+        message:"What is the manager's office number?",   
+    }
+
+])
+
 
 
 // Write code to use inquirer to gather information about the development team members,
