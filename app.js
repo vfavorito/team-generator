@@ -33,7 +33,55 @@ inquirer.prompt([
         message:"What is the manager's office number?",   
     }
 
-])
+]);
+const engineerInfo = () => 
+inquirer.prompt([
+    {
+        type:"input",
+        name:"engineer name",
+        message:"What is the name of this engineer?"
+    },
+    {
+        type:"input",
+        name:"engineer id",
+        message:"What is this engineer's ID number?",   
+    },
+    {
+        type:"input",
+        name:"engineer email",
+        message:"What is this engineer's email address?",   
+    },
+    {
+        type:"input",
+        name:"engineer github",
+        message:"What is this engineer's Github Username?",   
+    }
+
+]);
+const InternInfo = () => 
+inquirer.prompt([
+    {
+        type:"input",
+        name:"Intern name",
+        message:"What is the name of this Intern?"
+    },
+    {
+        type:"input",
+        name:"Intern id",
+        message:"What is this Intern's ID number?",   
+    },
+    {
+        type:"input",
+        name:"Intern email",
+        message:"What is this Intern's email address?",   
+    },
+    {
+        type:"input",
+        name:"Intern school",
+        message:"What school does this intern attend?",   
+    }
+
+]);
 
 
 
