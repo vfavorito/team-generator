@@ -1,5 +1,5 @@
-const Manager = require("../lib/Manager");
-const Employee = require("../lib/Employee");
+const Manager = require("../classes/manager");
+const Employee = require("../classes/employee");
 
 test("Can set office number via constructor argument", () => {
   const testValue = 100;
