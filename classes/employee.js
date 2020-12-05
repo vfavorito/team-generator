@@ -23,9 +23,6 @@ class Employee{
         return this.email;
     }
     getRole(){
-        if(typeof this.getName() !== "string" || typeof this.getId() !== "number" || typeof this.getEmail() !== "string"){
-            throw new Error("This Employee entry is missing data");
-        }
         return "Employee"
     }
 }
