@@ -1,6 +1,7 @@
 const Manager = require("./classes/manager");
 const Engineer = require("./classes/engineer");
 const Intern = require("./classes/intern");
+
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -82,6 +83,21 @@ inquirer.prompt([
     }
 
 ]);
+const addTeamMember = () =>
+inquirer.prompt([{
+    type:"confirm",
+    name:"add member",
+    message:"Do you want to add another team member?",
+    default:"false"
+}
+]);
+const internOrEngineer = () =>
+inquirer.prompt([{
+    type:"list",
+    name:"intern or engineer",
+    message:"Is this team member an Intern or an Engineer?",
+    choices:["Intern","Engineer"]
+}]);
 
 
 
