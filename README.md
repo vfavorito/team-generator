@@ -17,9 +17,14 @@ The team generator allows you to easily create an HTML webpage that displays a c
 ### How it works!
 Simply run the command node app.js in your command line.  After that add team members to your page by answering the questions.  Once your team is complete answer no to if you want to add another team member and your HTML page will be created and located in the output folder!
 
-PicDesc <br/> ![picAlt](picPath) <br/><br/>
-PicDesc <br/> ![picAlt](picPath) <br/><br/>
-PicDesc <br/> ![picAlt](picPath) <br/><br/>
+### Initiate Prompt Questions
+ <br/> ![picAlt](images/initialize.png) <br/><br/>
+
+### Add Team Members
+ <br/> ![picAlt](images/questions.png) <br/><br/>
+
+### Open HTML File in output Folder
+<br/> ![picAlt](images/html.PNG) <br/><br/>
 
 ### Example
 Here is a link to the Coding Team Generator:  [https://github.com/vfavorito/team-generator](https://github.com/vfavorito/team-generator)
