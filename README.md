@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview:
-The team generator allows you to easily create an HTML webpage that displays a coding team.  Each member of the team will have their information displayed on the page.  The info displayed changes based on the role of the member ex. Manager, Engineer, or Intern.  This was primarily accomplished using class constructors, inquirer, fs, and bootstrap.  
+The team generator allows you to easily create an HTML webpage that displays a coding team.  Each member of the team will have their information displayed on the page.  The info displayed changes based on the role of the member ex. Manager, Engineer, or Intern.  This was primarily accomplished using class constructors, node, inquirer, fs, and bootstrap.  
 
 ### Table of Contents:
 1. [How it works](#How-it-works)

@@ -121,7 +121,7 @@ const internOrEngineer = () =>
         type: "list",
         name: "internOrEngineer",
         message: "Is this team member an Intern or an Engineer?",
-        choices: ["Intern", "Engineer"]
+        choices: ["Engineer", "Intern"]
     }]).then((responses) => {
         if(responses.internOrEngineer === "Intern"){
             internInfo();
