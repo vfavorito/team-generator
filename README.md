@@ -27,7 +27,8 @@ Simply run the command node app.js in your command line.  After that add team me
 <br/> ![picAlt](images/html.PNG) <br/><br/>
 
 ### Example
-Here is a link to the Coding-Team Generator:  [https://github.com/vfavorito/team-generator](https://github.com/vfavorito/team-generator)
+Here is a link to the Coding-Team Generator:  [https://github.com/vfavorito/team-generator](https://github.com/vfavorito/team-generator)<br>
+Here is a link to an example video of how to use the app: [example video](https://drive.google.com/file/d/1fpkdMUCGyjmYpHHtLo-z9gW1zovG6K2m/view?usp=sharing)
 
 ### Installation
 Clone the Repository onto your local machine.  Make sure you have node installed then run the command npm i in your terminal to install all of the package files.  After that you are good to go.

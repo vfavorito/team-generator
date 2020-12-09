@@ -31,7 +31,7 @@ const memberSelect = () =>
             internInfo();
         }
     });
-// the add another team member question
+// the add another team member prompt question
 const addTeamMember = () =>
 inquirer.prompt([{
     type: "confirm",
