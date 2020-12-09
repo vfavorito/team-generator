@@ -1,9 +1,12 @@
+// base class that all team members will have
 class Employee{
+// setting the base info for all team members
     constructor(name,id,email){
         this.name = name;
         this.id = id;
         this.email = email;
     }
+//methods for getting team members base info
     getName(){
         if(typeof this.name !== "string" || !this.name.trim().length){
             throw new Error("Name was either not entered or not a string!");
@@ -26,4 +29,5 @@ class Employee{
         return "Employee"
     }
 }
+//exporting this class
 module.exports = Employee;

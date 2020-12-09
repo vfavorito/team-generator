@@ -1,4 +1,4 @@
-# Coding Team Generator
+# Coding-Team Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -27,7 +27,7 @@ Simply run the command node app.js in your command line.  After that add team me
 <br/> ![picAlt](images/html.PNG) <br/><br/>
 
 ### Example
-Here is a link to the Coding Team Generator:  [https://github.com/vfavorito/team-generator](https://github.com/vfavorito/team-generator)
+Here is a link to the Coding-Team Generator:  [https://github.com/vfavorito/team-generator](https://github.com/vfavorito/team-generator)
 
 ### Installation
 Clone the Repository onto your local machine.  Make sure you have node installed then run the command npm i in your terminal to install all of the package files.  After that you are good to go.

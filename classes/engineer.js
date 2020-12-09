@@ -1,5 +1,6 @@
+// bringing in our employee class
 const Employee = require("../classes/employee");
-
+// new sub-class of employee that adds a github variable 
 class Engineer extends Employee{
     constructor(name,id,email,github){
         super(name,id,email);
@@ -15,4 +16,5 @@ class Engineer extends Employee{
         return "Engineer"
     }
 }
+// exporting the Engineer class
 module.exports = Engineer

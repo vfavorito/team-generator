@@ -1,5 +1,6 @@
+// bringing in our employee class
 const Employee = require("../classes/employee");
-
+// creating a sub class of employee and adding an officeNumber variable
 class Manager extends Employee{
     constructor(name,id,email,officeNumber){
         super(name,id,email);
@@ -15,4 +16,5 @@ class Manager extends Employee{
         return "Manager"
     }
 }
+//exporting the manager class
 module.exports = Manager
