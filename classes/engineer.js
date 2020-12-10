@@ -6,15 +6,16 @@ class Engineer extends Employee{
         super(name,id,email);
         this.github = github;
     }
-    getGithub(){
-        if(!this.github.trim().length){
-            throw new Error("Github username was not entered !");
-        }
-        return this.github;
+}
+//Engineer class specific methods for getting info
+Engineer.prototype.getGithub = function(){
+    if(!this.github.trim().length){
+        throw new Error("Github username was not entered !");
     }
-    getRole(){
-        return "Engineer"
-    }
+    return this.github;
+}
+Engineer.prototype.getRole = function(){
+    return "Engineer";
 }
 // exporting the Engineer class
 module.exports = Engineer

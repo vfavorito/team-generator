@@ -6,15 +6,16 @@ class Intern extends Employee{
         super(name,id,email);
         this.school = school;
     }
-    getSchool(){
-        if(typeof this.school !== "string" || !this.school.trim().length){
-            throw new Error("School was either not entered or not a string!");
-        }
-        return this.school;
+}
+//Intern class specific methods for getting info
+Intern.prototype.getSchool = function(){
+    if(typeof this.school !== "string" || !this.school.trim().length){
+        throw new Error("School was either not entered or not a string!");
     }
-    getRole(){
-        return "Intern";
-    }
+    return this.school;
+}
+Intern.prototype.getRole = function(){
+    return "Intern";
 }
 //exporting the intern class
 module.exports = Intern;
