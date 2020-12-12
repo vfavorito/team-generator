@@ -34,7 +34,7 @@ Here is a link to an example video of how to use the app: [example video](https:
 Clone the Repository onto your local machine.  Make sure you have node installed then run the command npm i in your terminal to install all of the package files.  After that you are good to go.
 
 ### Test
-Make a team of your own!
+All jest tests pass and throw errors if incorrect input types are entered.
 
 ### Contributing
 If you would like to contribute to the development of this app the guidelines for doing so can be found here: [Contribution Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.txt)
